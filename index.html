@@ -1,39 +1,31 @@
 <html>
-
-
-
-<personal>
-
-    <br>
-    Kutay Doğan <br>
-    <personalinfo>
-
-        İstanbul teknik üniversitesi
-    </personalinfo>
     
-</personal>
+
 
 
 <body>
-    <br>
-    <br>
-    <div class="funlinks">
-
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Funlink</a> <br>
-        
-    <br>
-    </div>
     
-    <br>
-
-    <img src="kedi.jpg" alt="Picture of an employee." width="90">
-
-    <div class="history">
-        <h2>Rocket Jump Race</h2>
-        <h3>Developer</h3>
-        <h3>1 march 2023 - current</h3>
-    </div>
     
+    
+    
+    
+<img class="profile" src="kutay.jpg" alt="Picture of an employee." width="150">
+    
+    
+
+   
+    
+    <div class="container">
+        <img src="nature.jpg" alt="Norway" style="width:100%;">
+
+        <div class="text-block">
+          <h4>Nature</h4>
+          <p>What a beautiful sunrise</p>
+          
+        </div>
+      </div>
+
+      
     
    
 
@@ -42,37 +34,23 @@
  
 
 <style>
+
 html
 {
-    background-color: black;
+    
 }
 body
 {
-    background-color: rgb(39, 44, 37);
-}
-personal
-{
-    color: aqua;
-}
-.history
-{
+    background-image: url('Backdo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     
-    background-size: 100%;
-    padding-left: 50%;
-    color:rgb(255, 179, 0);
-    font-family: Impact, Haettenschweiler, , sans-serif;
-    background-color: black;
-}
-.history:hover
-{
-    background-color: rgb(0, 195, 255);
     
 }
 
-.funlinks
-{
-    color: rgb(215, 186, 18);
-}
+
+
+
 a
 {
     
@@ -80,6 +58,35 @@ a
   font-style:oblique;
 }
 
+.container {
+  position: relative;
+  border-radius: 50%;
+ 
+ 
+  
+}
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(194, 35, 35, 0.669);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
+.profile
+{
+    border-radius: 50%;
+    transition:transform.3s;
+
+}
+.profile:hover
+{
+    transform:  scale(1.5);
+    
+   
+
+}
 
 </style>
